@@ -1,0 +1,18 @@
+{
+  "name": "testcafe-demoqa",
+  "version": "1.0.0",
+  "description": "my testcafe framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testcafe": "npx testcafe chrome functional/tests/ -s takeOnFails=true",
+    "testcafe-headless": "npx testcafe chrome:headless tests/"
+  },
+  "author": "augustine madamombe",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.17.1",
+    "tslint-config-airbnb": "^5.11.2"
+  }
+
+}
